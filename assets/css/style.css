@@ -99,8 +99,8 @@ h1, h2 {
     letter-spacing: 4px;
     text-align: center;
 
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 150px;
 
     padding-top: 40px;
     padding-left: 10px;
@@ -111,4 +111,119 @@ h1, h2 {
     right: 38%;
 
     position: absolute;
+}
+
+/* Our Quality */
+
+
+#cow {
+    padding-top: 30px;
+    width: 35%;
+    height: 150px;
+    
+    
+   
+}
+
+#cow-text{
+    width: 50%;
+    display: inline-block;
+    margin-top: 50px;
+    
+}
+
+.img-container{
+    width: 50%;    
+    float: right;
+    
+}
+
+#milking {
+    padding-top: 30px;
+    width: 35%;
+    margin-left: 20%;
+    height: 150px;
+    
+}
+
+#milking-text{
+    width: 50%;
+    display: inline-block;
+    margin-top: 50px;
+    
+}
+
+#cream {
+    padding-top: 30px;
+    width: 35%;
+    margin-left: 40%;
+    height: 150px;
+}
+
+#cream-text{
+    width: 50%;
+    display: inline-block;
+    margin-top: 50px;
+    
+}
+
+#ice-cream {
+    padding-top: 30px;
+    width: 25%;
+    margin-left: 60%;
+    height: 150px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+
+
+#our-quality {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+.circle-container {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    
+    
+}
+
+#cow-img {
+    background: url('../images/cow.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#milk-img {
+    background: url('../images/cow_milk.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#cream-img {
+    background: url('../images/fresh_cream.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#icecream-img {
+    background: url('../images/icecream_production.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
 }
