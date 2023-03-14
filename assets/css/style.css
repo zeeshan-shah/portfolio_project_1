@@ -503,6 +503,50 @@ footer ul {
   display: inline;
 }
 
+.menu-price-list h3{
+  color: #FFDEAD;
+  font-size: 200%;
+  font-family: Oswald, sans-serif;
+  text-transform: capitalize;
+  text-align: left;
+  font-style: normal;
+}
+
+.menu-price-list > li{
+  color: #fff;
+  font-size: 100%;
+  font-family: Lato, sans-serif;
+  text-transform: capitalize;
+  text-align: left;
+  font-style: italic;
+  line-height: 1.8;
+}
+
+.menu-price-list > li {
+  display: inline;
+}
+
+.price-style{
+  position: absolute;
+  right: 10px;
+  clear: both;
+
+}
+
+.menu-price-list h4{
+  text-align: right; 
+  line-height: 0%;
+  font-size: large;
+  color: gold;
+}
+
+#royaltreat{
+  font-size: 300%;
+  font-weight: bolder;
+  font-family: Sacramento, sans-serif;
+  color: pink;
+}
+
 
 /* Media queries */
 
@@ -890,6 +934,32 @@ margin: 0;
   font-size: 100%;
 }
 
+
+#menupage{
+  width: 90%;
+  height: 1600px;
+  margin: 10% auto;
+}
+
+#menupage div {
+  
+  width: 100%;
+  float: left;
+   
+}
+
+footer ul {
+  position:relative;
+  top: 10%;
+  left: 30%;
+  transform:translate(-50%,-50%);
+  padding:0;
+  display:inline-flex;
+  scale: 0.6;
+  margin: 0 auto;
+}
+
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -1034,9 +1104,31 @@ margin: 0;
     margin: 0 auto;
   }
   
+  #heading-menu {
+        font-size: 200%; 
+      
+  }
+
+  #menupage{
+    width: 90%;
+    height: 1600px;
+    margin: 0 auto;
+  }
   
-  
+  #menupage div {
+    
+    width: 100%;
+    float: left;
+    font-size: 80%;
+    box-sizing: border-box;
+    
+     
+  }
+ 
 }
+
+
+
 
 */
  /* For medium screen sizes from 700px wide and down */
