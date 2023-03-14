@@ -117,135 +117,153 @@ h1, h2 {
 
 /* Our Quality */
 
+#quality{
+  width: 100%;
+  height: 1200px;
 
-#cow {
-    padding-top: 30px;
-    width: 35%;
-    height: 25%;
-    }
-
-#cow-text{
-    width: 50%;
-    display: inline-block;
-    margin-top: 50px;
-    
 }
 
-.img-container{
-    width: 50%;    
-    float: right;
-    
+#img-container{
+  padding-top: 30px;
+  width: 270px;
+  height: 270px;
+  float: left;
+  margin-left: 10px;
+  vertical-align: baseline;
+
 }
-
-#milking {
-    padding-top: 30px;
-    width: 35%;
-    margin-left: 20%;
-    height: 25%;
-    
-}
-
-#milking-text{
-    width: 50%;
-    display: inline-block;
-    margin-top: 50px;
-    
-}
-
-#cream {
-    padding-top: 30px;
-    width: 35%;
-    margin-left: 40%;
-    height: 25%;
-}
-
-#cream-text{
-    width: 50%;
-    display: inline-block;
-    margin-top: 50px;
-    
-}
-
-#ice-cream {
-    padding-top: 30px;
-    width: 25%;
-    margin-left: 60%;
-    height: 25%;
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    margin: 5px 0;
-}
-
-
-
-#our-quality {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
-}
-
 .circle-container {
-    width: 200px;
-    height: 200px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    
-    
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  border-radius: 50%;
+  
+}
+
+#cow{
+  padding-top: 30px;
+  width: 60%;
+  height: 300px;
+  margin-left: 0%;
+}
+
+#cow-content{
+  padding-top: 80px;
+  width: 50%;
+  float: left;
 }
 
 #cow-img {
-    background: url('../images/cow.jpg') no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    border-radius: 50%;
+  background: url('../images/cow.jpg') no-repeat center center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
-#milk-img {
-    background: url('../images/cow_milk.jpg') no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    border-radius: 50%;
+#milking{
+  padding-top: 30px;
+  width: 60%;
+  height: 300px;
+  margin-left: 15%;
+  float: left;
+}
+
+#milking-content{
+  padding-top: 80px;
+  width: 50%;
+  float: left;
+}
+
+#milking-img {
+  background: url('../images/cow_milk.jpg') no-repeat center center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#cream{
+  padding-top: 30px;
+  width: 60%;
+  height: 300px;
+  margin-left: 30%;
+  float: left;
+}
+
+#cream-content{
+  padding-top: 80px;
+  width: 50%;
+  float: left;
 }
 
 #cream-img {
-    background: url('../images/fresh_cream.jpg') no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    border-radius: 50%;
+  background: url('../images/fresh_cream.jpg') no-repeat center center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+#icecream{
+  padding-top: 30px;
+  width: 60%;
+  height: 300px;
+  margin-left: 45%;
+  float: left;
+}
+
+#icecream-content{
+  padding-top: 80px;
+  width: 50%;
+  float: left;
 }
 
 #icecream-img {
-    background: url('../images/icecream_production.jpg') no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    border-radius: 50%;
+  background: url('../images/icecream_production.jpg') no-repeat center center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+hr {
+  border-top: 1px solid #3a3a3a;
+  width: 100%;
+  margin: 5px 0;
+}
+
+
+
+#quality > div > h2{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
 }
 
 /* our products */
 
 #our-products {
     text-align: center;
-    margin: 20px 0;
     font-size: 280%;
+    margin-bottom: 5%;
 }
 
 #products{
     width: 100%;
     overflow: hidden;
     height: 600px;
+    margin-top: 20%;
 }
 
 #products div {
     color: #050505;
     width: 20%;
     float: left;
-    padding: 10px 0 0 10px;
+    
     text-align: center;
     box-sizing: border-box;
     
@@ -257,6 +275,7 @@ hr {
     padding: 5px;
     width: 100%;
     height: 200px;
+    box-sizing: border-box;
   }
 
 .button {
@@ -278,22 +297,23 @@ hr {
     color: #FEE715FF;
   }
 
-footer {
-    height: 150px;
+#socialmedia {
+    height: 300px;
     width: 100%;
-    
+    left: 50%;
     
 }
+
+
 footer ul {
     position:relative;
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-    margin-left: 20%;
-    margin-top: 10%;
     padding:0;
-    display:flex;
+    display:inline-flex;
   }
+  
   footer ul li {
     list-style:none;
   }
@@ -303,7 +323,7 @@ footer ul {
     width:100px;
     height:100px;
     line-height:100px;
-    font-size:40px;
+    font-size:20px;
     text-align:center;
     text-decoration:none;
     color:#404040;
@@ -480,43 +500,72 @@ footer ul {
 
 /* Media queries */
 
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
+/* For larger to medium screens size from 1300px wide and down */
+@media screen and (max-width: 1300px) {
+  #logo {
+    float: left;
+    width: 25%;
+    height: 25%;
+}
+
   #quality {
-      width: 65%;
-      height: 1200px;
+      width: 85%;
+      height: 1400px;
       margin: 0 auto;
   }
 
-  #our-quality{
-      padding: 30px 0;
+  #cow {
+      width: 100%;
+      float: left;
+      padding: 0;
       margin: 0;
   }
-
-  #cow, #milk, #cream, #ice-cream {
-      width: 100%;
-      float: left;
-      padding: 0;
-  }
-
-  #center-about {
-      clear: both;
-      width: 100%;
-      float: left;
-      padding: 0;
-  }
-
-  #products > div {
-      width: 100%;
-      clear: both;
-      height: 150px;
-      padding: 0;
-  }
-
-  hr {
-      display: none;
-  }
+  #milking {
+    padding-top: 30px;
+    width: 100%;
+    margin-left: 0%;
+    float: left;
+    
 }
+#cream {
+  padding-top: 30px;
+    width: 100%;
+    margin-left: 0%;
+    float: left;
+  }
+
+  #icecream {
+    padding-top: 30px;
+      width: 100%;
+      margin-left: 0%;
+      float: left;
+    }
+
+  .img-container{
+    width: 100%;
+    float: left;
+    padding: 0;
+}
+#products{
+  width: 85%;
+  overflow: hidden;
+  height: 1500px;
+  margin: 30px auto;
+}
+  
+  #products > div {
+      width: 50%;
+      clear: both;
+      
+      
+      float: left;
+      margin-top: 10px;
+      left: 25%;
+      position: relative;
+
+  }
+
+  
 
   /* For medium screen sizes from 950px wide and down */
   
@@ -540,16 +589,16 @@ footer ul {
       margin: 0 auto;
   }
 
-  #cow, #milk, #cream, #ice-cream {
+  #cow, #milking, #cream, #ice-cream {
       width: inherit;
   }
 
-  #cow h2, #milk h2, #cream h2, #ice-cream h2 {
+  #cow h2, #milking h2, #cream h2, #ice-cream h2 {
       width: 100%;
       text-align: center;
   }
 
-  #cow p, #milk p, #cream p, #ice-cream p {
+  #cow p, #milking p, #cream p, #ice-cream p {
       text-align: center;
       padding: 0 20px;
   }
