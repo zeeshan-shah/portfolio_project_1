@@ -18,6 +18,7 @@ body {
 
 /* headings and logo */
 
+
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -306,6 +307,14 @@ hr {
     
 }
 
+#footerbottom{
+  width: 100%;
+  position: relative;
+  bottom: 10px;
+  justify-content: center; 
+  margin: 10% auto;
+  clear: both;
+}
 
 footer ul {
     position:relative;
@@ -326,7 +335,7 @@ footer ul {
     width:100px;
     height:100px;
     line-height:100px;
-    font-size:20px;
+    font-size: 20px;
     text-align:center;
     text-decoration:none;
     color:#404040;
@@ -545,6 +554,123 @@ footer ul {
   font-weight: bolder;
   font-family: Sacramento, sans-serif;
   color: pink;
+}
+
+/* Contact Page*/
+
+#background-contact {
+  background: url('../images/contactpage-background.jpg') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+  height: 900px;
+}
+
+#contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#contact-container-left {
+  width: 45%;
+  height: 800px;
+  background-color: rgba(242, 242, 242, 0.8);
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#contact-us-left {
+  padding: 20px;
+}
+
+#fname,
+#lname,
+#email,
+#newsletter,
+#textarea {
+    margin: 10px;
+    font-size: 170%;
+    color: #012615;
+}
+
+label {
+    width: 140px;
+    display: inline-block;
+    font-size: 1.25em;
+}
+
+input {
+    border-radius: 12px;
+}
+
+textarea {
+    font-family: 'Josefin sans', 'sans-serif';
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#textarea {
+    display: block;
+    margin: 0 auto; 
+}
+
+.submit-button {
+    background-color: #94e3ff;
+    color: #A63838;
+    font-family: 'Josefin sans', 'sans-serif';
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    display: block; 
+    margin: 0 auto;
+}
+
+.submit-button:hover {
+    color: #f2f2f2;
+}
+
+#google-map {
+    width: 90%;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+#contact-container-right {
+  width: 45%;
+  height: 800px;
+  background-color: rgba(242, 242, 242, 0.8);
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#contact-us-right {
+  padding: 20px;
+}
+
+#contact-us-right iframe {
+  margin-top: 20px;
+}
+
+#contact-us-right p {
+  font-size: 110%;
+  color: #012615;
+  text-align: center;
+}
+
+#address-scoops {
+  color: #db4a4a;
+}
+
+#contact-container h2 {
+  font-size: 200%;
 }
 
 
@@ -948,6 +1074,7 @@ margin: 0;
    
 }
 
+
 footer ul {
   position:relative;
   top: 10%;
@@ -1127,318 +1254,3 @@ footer ul {
  
 }
 
-
-
-
-*/
- /* For medium screen sizes from 700px wide and down */
-  /*
- @media screen and (max-width: 700px) {
-
-  .menu-flavor-list > li{
-  
-    font-size: 50%;
-   
-  }
-  #menupage div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .4);
-    width: 50%;
-    height: 500px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 15px solid hsla(0, 100%, 100%, 0.3);
-    box-sizing: border-box;
-    
-  }
- }
-
-}
-
-
-}
-
-
-/*
-
-/* For larger to medium screens size from 1300px wide and down */
-/*
-@media screen and (max-width: 1300px) {
-  #logo {
-    float: left;
-    width: 25%;
-    height: 25%;
-}
-
-
-  #quality {
-      width: 85%;
-      height: 1400px;
-      margin: 0 auto;
-  }
-
-  #cow {
-      width: 100%;
-      float: left;
-      padding: 0;
-      margin: 0;
-  }
-  #milking {
-    padding-top: 30px;
-    width: 100%;
-    margin-left: 0%;
-    float: left;
-    
-}
-#cream {
-  padding-top: 30px;
-    width: 100%;
-    margin-left: 0%;
-    float: left;
-  }
-
-  #icecream {
-    padding-top: 30px;
-      width: 100%;
-      margin-left: 0%;
-      float: left;
-    }
-
-  .img-container{
-    width: 100%;
-    float: left;
-    padding: 0;
-}
-#products{
-  width: 85%;
-  overflow: hidden;
-  height: 1500px;
-  margin: 30px auto;
-}
-  
-  #products > div {
-      width: 50%;
-      clear: both;
-      
-      
-      float: left;
-      margin-top: 10px;
-      left: 25%;
-      position: relative;
-
-  }
-  footer ul {
-    position:relative;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    padding:0;
-    display:inline-flex;
-    
-  }
-  
-  #menupage div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .4);
-    width: 50%;
-    height: 900px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 15px solid hsla(0, 100%, 100%, 0.3);
-    box-sizing: border-box;
-    
-  }
-}
-*/
-
-  /* For medium screen sizes from 700px wide and down */
-
-  /*
-@media screen and (max-width: 700px) {
-  #menu {
-    clear: left;
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;
-}
-#cover-text {
-  left: 0;
-  font-size: 100%;
-}
-  #logo {
-    float: left;
-    width: 25%;
-    height: 25%;
-}
-
-  #quality {
-      width: 85%;
-      height: 1400px;
-      margin: 0 auto;
-  }
-
-  hr {
-    border-top: 1px solid #3a3a3a;
-    width: 100%;
-    
-  }
-
-  #cow {
-      width: 100%;
-      height: 400px;
-      float: left;
-      padding: 0;
-      margin: 0;
-      text-align: center;
-      
-
-  }
-
-  #cow-content {
-    width: 100%;
-    float: left;
-    padding: 0;
-    margin: 0;
-  }
-
-  #milking {
-      width: 100%;
-      height: 400px;
-      float: left;
-      padding: 0;
-      margin: 0;
-      text-align: center;
-  }
-
-  #milking-content {
-    width: 100%;
-    float: left;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #cream {
-    width: 100%;
-    height: 400px;
-    float: left;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    
-
-}
-
-  #cream-content {
-  width: 100%;
-  float: left;
-  padding: 0;
-  margin: 0;
-}
-
-  #icecream {
-    width: 100%;
-    height: 400px;
-    float: left;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    
-
-  }
-
-  #icecream-content{
-  width: 100%;
-  float: left;
-  padding: 0;
-  margin: 0;
-}
-
-    #img-container{
-      width: 100%;
-      float: left;
-      padding: 0;
-      margin-top: 5%;
-      margin-left: 25%;
-      clear: both;
-    }
-
- 
-
-
-#products{
-  width: 85%;
-  overflow: hidden;
-  height: 1500px;
-  margin: 30px auto;
-}
-  
-  #products > div {
-      width: 50%;
-      clear: both;
-      
-      
-      float: left;
-      margin-top: 10px;
-      left: 25%;
-      position: relative;
-
-  }
-  
-  footer ul {
-    position:relative;
-    top:50%;
-    left:20%;
-    transform:translate(-50%,-50%);
-    padding:0;
-    display:inline-flex;
-    scale: 0.6;
-  }
-  
-  .menu-flavor-list > li{
-  
-    font-size: 50%;
-   
-  }
-  #menupage div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .4);
-    width: 50%;
-    height: 600px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 15px solid hsla(0, 100%, 100%, 0.3);
-    box-sizing: border-box;
-    
-  }
-  
-}
-
-*/
- /* For medium screen sizes from 700px wide and down */
-  /*
- @media screen and (max-width: 700px) {
-
-  .menu-flavor-list > li{
-  
-    font-size: 50%;
-   
-  }
-  #menupage div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .4);
-    width: 50%;
-    height: 500px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 15px solid hsla(0, 100%, 100%, 0.3);
-    box-sizing: border-box;
-    
-  }
- }
- */
- 

@@ -13,6 +13,7 @@
 </head>
 <body>
     <header>
+        
         <a href="index.html">
         <img src="assets/images/logo.jpg" alt="logo" id="logo">
         </a>
@@ -29,74 +30,53 @@
                 </li>
             </ul>
         </nav>
+        
     </header>
             
 
-    <section>
-        <div>
-            <h2 id="heading-menu">THE MENU</h2>
-        </div>
-        <div id="menupage">
-            <div>
-                <h2 id="heading-flavors">Flavors</h2>
-                <hr>
-                <ul class="menu-flavor-list">
-                    <li>
-                        <h3>Vanilla</h3>
-                        <p>Delicious, smooth, creamy vanilla</p>
-                    </li>
-                    <li>
-                        <h3>Chocolate</h3>
-                        <p>Heaven for chocolate lovers</p>
-                    </li>
-                    <li>
-                        <h3>Lemon Thyme</h3>
-                        <p>This zesty, aromatic combination is unlike any ice cream you've ever tasted!</p>
-                    </li>
-                    <li>
-                        <h3>Honey Pistachio</h3>
-                        <p>With Mediterranean flare, inspired by the sweet flavors of Greece, this combo is a sophisticated treat</p>
-                    </li>
-                    <li>
-                        <h3>Strawberry</h3>
-                        <p>Enjoy this classic dessert in a refreshing new way!</p>
-                    </li>
-                    <li>
-                        <h3>Mint Lemon Chocolate</h3>
-                        <p>This ice cream is a chocolate lover's dream filled with bursts of zesty citrus and aromatic mint!</p>
-                    </li>
+    <section id="form-section">
+        <div id="background-contact">
+            <div id="contact-container">
+                <div id="contact-container-left">
+                    <div id="contact-us-left">
+                    <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-us">
+                    <h2>Want more SCOOPS?</h2><br>
+                    <label for="fname" aria-label="first name">First Name</label>
+                    <input class="text-input" id="fname" name="first_name" type="text" required><br>
 
-                </ul>
-            </div>
-            <div>
-                <h2 id="heading-prices">Prices</h2>
-                <hr>
-                <ul class="menu-price-list">
-                    <li>
-                        
-                        <h3>Two Scoops <h4>$4.50</h4></h3>        
-                        <p>Two large scoops of ice cream + One topping</p>
-                        
-                    </li>
-                    <li>
-                        <h3>Three Scoops <h4>$5.50</h4></h3>
-                        <p>Three large scoops of ice cream + Two topping</p>
-                    </li>
-                    <li>
-                        <h3>Waffle Cone <h4>$5.00</h4></h3>
-                        <p>One delicious cone, one large scoop of ice cream + one topping</p>
-                    </li>
-                    <li>
-                        <br>
-                        <br>
-                        <h3 id="royaltreat">Royal Treat! <h4>$8.00</h4></h3>
-                        <p>Five large scoops of ice cream + Three topping + Fresh banana base with caramel</p>
-                    </li>
+                    <label for="lname" aria-label="last name">Last Name</label>
+                    <input class="text-input" id="lname" name="last_name" type="text" required><br>
+
+                    <label for="email" aria-label="email">Email</label>
+                    <input class="email" id="email" name="email" type="email" required><br><br>
                     
-                </ul>
+                    <label for="textarea" aria-label="enquiries textarea">Enquiries</label><br><br>
+                    <textarea name="message" id="textarea" class="message-field" rows="10" cols="30" placeholder="Please let us know if you have any queries or compliments (we love those!)"></textarea><br>
+                    <input class="submit-button" type="submit" value="Send">
+                    </form>
+                    </div>
+                </div> 
+                <div id="contact-container-right">
+                    <div id="contact-us-right">
+                    <h2>How to find us</h2>
+                    <div id="google-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2371.8376285173663!2d-7.343823223466046!3d53.52495667234158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485dc01cfe4269f3%3A0xbd3e1856c5a392e!2s11%20Mount%20St%2C%20Commons%2C%20Mullingar%2C%20Co.%20Westmeath%2C%20N91%20F992!5e0!3m2!1sen!2sie!4v1668434599160!5m2!1sen!2sie"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" title="Google map for SCOOPS ice cream parlour"></iframe>
+                    </div>
+                    <p class="address"><br><br>
+                        <span id="address-scoops">SCOOPS</span> Ice Cream & Treats<br>
+                        11 Mount Street,<br>
+                        Mullingar,<br>
+                        Co.Westmeath<br>
+                        N91 F992<br>
+                        Phone 044 9354321<br>
+                    </p>
+                    </div>
+                    </div>
             </div>
         </div>
-       
    
     </section>
     
